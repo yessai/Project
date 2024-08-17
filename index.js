@@ -13,6 +13,7 @@ const logMiddleware = (req, res, next) => {
     next(); 
   };
 
+   var name= 'tom';
 var products= {
       1:{ name:'Apple', price:20},
       2:{ name:'Orange', price:30},
